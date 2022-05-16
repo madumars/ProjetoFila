@@ -1,0 +1,42 @@
+//excessão dos erros
+
+public int linhas = 0;
+
+
+
+
+
+
+
+
+
+
+
+//erro de E
+public void setEntradas(string E) throws Exception
+{
+if(E >= 2)
+throw new Exception("Há mais de uma entrada no seu labirinto, labirinto inválido");
+}
+
+//erro de S 
+public void setSaidas (string S) throw Exception
+{
+if(S >= 2)
+throw new Exception("Há mais de uma saida no seu labirinto, labirinto inválido");
+}
+
+//coisinhas são todos os caracteres aceitos no txt para o labirinto
+public void setCaracteres (string coisinhas) trow Exception
+{
+  char c[] = {*,#,' ',S,E}
+  try{
+    int numero = Interger.parseInt(numero);
+    //não deu erro, é um número
+    this.linhas = numero;
+ 
+  }
+  catch(){}
+  
+}
+
